@@ -1,0 +1,9 @@
+*.env
+*.sqlite3
+*.egg-info
+*.pot
+*.py[co]
+__pycache__/
+
+.idea
+.pytest_cache

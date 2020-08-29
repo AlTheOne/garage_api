@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000 --settings=garage_api.settings_dev
+    volumes:
+    - .:/code
+    ports:
+    - "80:8000"
